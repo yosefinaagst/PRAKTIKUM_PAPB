@@ -40,13 +40,8 @@ fun DemoKotlin() {
         name = "Odellia",
         score = 90
     )
-    val hasilObject = hasilStudentObject(
-        student = murid
-    )
-    val hasil = hasilStudent(
-        name = murid.name,
-        score = murid.score
-    )
+//    val hasilObject ;
+//    val hasil ;
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -57,7 +52,7 @@ fun DemoKotlin() {
             modifier = Modifier.padding(8.dp)
         )
         Text(
-            text = hasilObject,
+            text = "",
             modifier = Modifier.padding(8.dp)
         )
         Spacer(Modifier.height(16.dp))
@@ -66,7 +61,7 @@ fun DemoKotlin() {
             modifier = Modifier.padding(8.dp)
         )
         Text(
-            text = hasil,
+            text = "",
             modifier = Modifier.padding(8.dp)
         )
     }
